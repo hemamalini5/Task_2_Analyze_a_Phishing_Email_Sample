@@ -23,7 +23,7 @@ Identify phishing characteristics in a suspicious email sample and produce a rep
 ## Files Included
 - `Phishing_Email_Analysis_Report.pdf` - The comprehensive technical forensic analysis report
 - `sample_phishing_email.txt` - The raw simulated email file (headers and body) used for the investigation
-- `screenshots/` — Directory containing evidentiary tool analysis outputs from MXToolbox and URLVoid
+- `screenshots/` - Directory containing evidentiary tool analysis outputs from MXToolbox and URLVoid
 - `finding_notes.txt`
 
 ## Disclaimer
