@@ -1,4 +1,4 @@
-# Analyze a Phishing Email Sample — Task 2
+# Analyze a Phishing Email Sample  Task 2
 ElevateLabs Cybersecurity Internship
 
 ## Overview
@@ -8,10 +8,10 @@ This repository contains the deliverables for Task 2 of the ElevateLabs Cybersec
 Identify phishing characteristics in a suspicious email sample and produce a report listing all indicators found.
 
 ## Tools Used
-- MXToolbox Header Analyzer — SPF/DKIM/DMARC analysis
-- Text Editor — examining raw email source
-- URLVoid — safe URL reputation check
-- Google Admin Messageheader — secondary header validation
+- MXToolbox Header Analyzer - SPF/DKIM/DMARC analysis
+- Text Editor - examining raw email source
+- URLVoid - safe URL reputation check
+- Google Admin Messageheader - secondary header validation
 
 ## Key Findings
 - **Typosquatted Domain:** paypa1-verify.com (digit 1 used in place of the letter l)
@@ -21,8 +21,8 @@ Identify phishing characteristics in a suspicious email sample and produce a rep
 - **Linguistic Anomalies:** Multiple prominent grammatical and structural errors inconsistent with official enterprise communications
 
 ## Files Included
-- `Phishing_Email_Analysis_Report.pdf` — The comprehensive technical forensic analysis report
-- `sample_phishing_email.txt` — The raw simulated email file (headers and body) used for the investigation
+- `Phishing_Email_Analysis_Report.pdf` - The comprehensive technical forensic analysis report
+- `sample_phishing_email.txt` - The raw simulated email file (headers and body) used for the investigation
 - `screenshots/` — Directory containing evidentiary tool analysis outputs from MXToolbox and URLVoid
 - `finding_notes.txt`
 
