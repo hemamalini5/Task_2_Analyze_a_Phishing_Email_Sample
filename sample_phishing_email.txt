@@ -1,0 +1,52 @@
+Return-Path: <security-alert@paypa1-verify.com>
+Received: from mail.paypa1-verify.com (mail.paypa1-verify.com [185.220.101.47])
+        by mx.victim-mailserver.com (Postfix) with ESMTP id A3F2C1D9E2
+        for <john.doe@example.com>; Mon, 01 Jun 2026 09:14:33 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+        by mail.paypa1-verify.com with ESMTP id q4B9Ks023481
+        Mon, 01 Jun 2026 09:14:30 +0000
+Authentication-Results: mx.victim-mailserver.com;
+        spf=fail (sender IP is 185.220.101.47;
+        expected domain paypal.com) smtp.mailfrom=paypa1-verify.com;
+        dkim=none (message not signed);
+        dmarc=fail action=none header.from=paypal.com
+MIME-Version: 1.0
+From: "PayPal Security Team" <security@paypal.com>
+Reply-To: recovery-support@paypa1-verify.com
+To: john.doe@example.com
+Date: Mon, 01 Jun 2026 09:14:29 +0000
+Message-ID: <2026060109143@paypa1-verify.com>
+Subject: [URGENT] Your PayPal Account Has Been Compromised - Immediate Action Required
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PHPMailer 5.2.21
+X-Originating-IP: 185.220.101.47
+
+Dear Valued PayPal Customer,
+
+We have detected an unusual sign-in attempt on your account from an
+unrecognized device located in Moscow, Russia (IP: 91.108.4.77) on
+June 01, 2026 at 08:47 AM UTC.
+
+To protect your account and your funds, your account access has been
+TEMPORARILY SUSPENDED.
+
+You must verify your identity within 24 HOURS or your account will be
+PERMANENTLY CLOSED and all pending transactions will be cancelled.
+
+Please click the link below to restore your account immediately:
+
+   VERIFY MY ACCOUNT NOW
+   [Displayed Text: https://www.paypal.com/verify-account]
+   [Actual URL:     http://paypa1-verify.com/login?token=xK9mZ2pQ&redirect=steal]
+
+If you believe this was a mistake kindly ignored this email and your
+account may effects. Failure to verify will result in permanent account
+termination and legal investigation.
+
+Your security is our top most priority.
+
+Regards,
+PayPal Security & Compliance Team
+PayPal, Inc. | 2211 North First Street, San Jose, CA 95131
+
+(c) 2026 PayPal. All rights reserved. | Privacy | Legal | Contact Us

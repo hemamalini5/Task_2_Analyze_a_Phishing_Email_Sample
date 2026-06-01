@@ -1,0 +1,10 @@
+In the email body, identify and highlight every phrase that creates urgency or fear. Find at least 4:
+- "TEMPORARILY SUSPENDED"
+- "within 24 HOURS"
+- "PERMANENTLY CLOSED"
+- "legal investigation"
+
+Find the grammar errors in the body. There are 3 clear ones:
+• "kindly ignored this email" → should be "ignore"
+• "your account may effects" → should be "may be affected"
+• "top most priority" → should be "top priority" or "utmost priority"
